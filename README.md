@@ -43,6 +43,7 @@ Nexora-vision-dataset-v1/
 ├─ LICENSE
 └─ README.md
 ```
+prompt.json structure
 ```json
 {
   "id": "00001",
