@@ -48,8 +48,9 @@ prompt.json structure
 {
   "id": "00001",
   "file_name": "anime/00001.png",
+  "category": "anime",
   "prompt": "anime girl cherry blossoms, soft lighting, 4k highly detailed",
-  "negative_prompt": "blurry, watermark, distorted face",
+  "resolution": "810x1440"
 }
 ```
 ## License
