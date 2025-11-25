@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Nexora Vision Dataset Banner" width="100%">
+</p>
+
 # Nexora Vision Dataset v1 mini
 
 A compact preview version of the Nexora Vision Dataset, containing 100–500 curated multi-genre AI-generated images for research, experimentation, and model evaluation.  
@@ -55,13 +59,6 @@ prompt.json structure
   }
 ]
 ```
-## License
-
-Released under the MIT License, permitting academic, research, and commercial usage.
-
-We appreciate attribution. If you use this dataset in research, training, or publications,
-please consider crediting: Aniruddha (JackMa) — ArkDevelopmentLab / ArkAiLab (ADL)
-
 ## How to Use (Hugging Face Example)
 ```python
 from datasets import load_dataset
@@ -80,7 +77,13 @@ https://github.com/ArkDevelopmentLabs/Nexora-vision-dataset-v1-mini
 ## Credits
 
 Developed by **ArkDevelopmentLabs (ADL)**
-Dataset creator: **JackMa and Ari (ArkDevelopmentLab / ArkAiLab)**
+Dataset creator: **JackMa (ArkDevelopmentLab / ArkAiLab)**
 
 If you build a model using this dataset, citing **Nexora Vision Dataset v1 mini** is appreciated.
 
+## License
+
+Released under the MIT License, permitting academic, research, and commercial usage.
+
+We appreciate attribution. If you use this dataset in research, training, or publications,
+please consider crediting: Aniruddha (JackMa) — ArkDevelopmentLab / ArkAiLab (ADL)
