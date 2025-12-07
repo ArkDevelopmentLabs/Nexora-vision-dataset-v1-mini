@@ -2,77 +2,85 @@
   <img src="assets/banner.png" alt="Nexora Vision Dataset Banner" width="100%">
 </p>
 
-# Nexora Vision Dataset v1 mini
+# Nexora Vision Dataset v1 Mini
 
-A compact preview version of the Nexora Vision Dataset, containing 100–500 curated multi-genre AI-generated images for research, experimentation, and model evaluation.  
+The **Nexora Vision Dataset v1 Mini** is a high-quality, multi-genre AI image dataset created for generative AI research, diffusion model training, and computer vision experimentation.  
 Developed and curated by **ArkDevelopmentLabs / ArkAiLab (ADL)**.
 
 ---
 
-## Overview
-Nexora Vision Dataset v1 Mini includes a small subset of cinematic, realistic, anime, sci-fi, and artistic images from the full Nexora Vision Dataset.  
-This mini release is intended to provide an early accessible version to test dataset pipelines, metadata structure, and training workflows before the full-scale release.
-
-Suitable for:
-- Initial testing of LoRA / DreamBooth / SDXL training
-- Fine-tuning sample models with lightweight datasets
-- Research, benchmarking, and dataset evaluation
-- Demonstrating workflow and structure for v1 full release
+## Dataset Summary
+Nexora Vision Dataset v1 Mini provides a curated collection of cinematic, realistic, anime, sci-fi, and artistic AI-generated images.  
+This dataset is designed for developers, researchers, and engineers who need a fast, lightweight dataset for prototyping image models, testing pipelines, and benchmarking generative systems such as SDXL, LoRA, and DreamBooth.
 
 ---
 
-## Key Features
-- Contains 100–500 curated images
-- Multiple categories and visual styles
-- Simple and clean metadata format (`prompts.json`)
-- Lightweight size for rapid download and training
-- Released under MIT license for open usage
-- Designed as a preview for the full Nexora Vision Dataset v1
+## Use Cases
+This dataset is ideal for:
+
+- Diffusion model training and LoRA fine-tuning  
+- Evaluation of generative pipelines  
+- Computer vision experimentation  
+- Visual style benchmarking  
+- Dataset pipeline and infrastructure testing  
+- Model validation before large-scale training  
+
+---
+
+## Supported Tasks
+| Task | Description |
+|------|-------------|
+| Image Generation | Training and evaluation of generative models |
+| Diffusion Models | SDXL, LoRA, DreamBooth workflows |
+| Multimodal Learning | Vision-language research |
+| Representation Learning | Embedding and feature learning |
+| Benchmarking | Image quality, aesthetics, and consistency |
 
 ---
 
 ## Dataset Structure
 ```
-Nexora-vision-dataset-v1/
+Nexora-vision-dataset-v1-mini/
 ├─ images/
-│ ├─ anime/
-│ ├─ cinematic/
-│ ├─ realistic/
-│ ├─ sci-fi/
-│ └─ artistic/
-├─ metadata/
-│ ├─ prompts.json
-│ ├─ prompts.parquet
-├─ previews/
 ├─ LICENSE
 └─ README.md
 ```
-```
-## How to Use (Hugging Face Example)
+
+---
+
+## License
+Released under the **MIT License**, allowing academic, research, and commercial usage.
+
+Attribution is appreciated.  
+If you use this dataset in research, training, or publications,  
+please consider crediting:
+
+**JackMa — ArkDevelopmentLab / ArkAiLab (ADL)**
+
+---
+
+## How to Load
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("ArkAiLab-Adl/Nexora-vision-dataset-v1")
+dataset = load_dataset("ArkAiLab-Adl/Nexora-vision-dataset-v1-mini")
 print(dataset)
 ```
-## Download
+---
+## Download link
 
-**Hugging Face**
+Hugging Face
 https://huggingface.co/datasets/ArkAiLab-Adl/Nexora-vision-dataset-v1-mini
 
-**GitHub**
+GitHub
 https://github.com/ArkDevelopmentLabs/Nexora-vision-dataset-v1-mini
+
+---
 
 ## Credits
 
-Developed by **ArkDevelopmentLabs (ADL)**
-Dataset creator: **JackMa (ArkDevelopmentLab / ArkAiLab)**
+Developed by ArkDevelopmentLabs (ADL)
+Dataset creators: JackMa and Ari (ArkDevelopmentLab / ArkAiLab)
 
-If you build a model using this dataset, citing **Nexora Vision Dataset v1 mini** is appreciated.
-
-## License
-
-Released under the MIT License, permitting academic, research, and commercial usage.
-
-We appreciate attribution. If you use this dataset in research, training, or publications,
-please consider crediting: Aniruddha (JackMa) — ArkDevelopmentLab / ArkAiLab (ADL)
+If you build or fine-tune a model using this dataset, citing
+Nexora Vision Dataset v1 Mini is appreciated.
