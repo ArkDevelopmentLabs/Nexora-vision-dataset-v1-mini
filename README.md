@@ -47,17 +47,6 @@ Nexora-vision-dataset-v1/
 ├─ LICENSE
 └─ README.md
 ```
-prompt.json structure
-```json
-[
-  {
-  "id": "001",
-  "file_name": "images/cinematic_realism/fantasy_cinematic/001.jpeg",
-  "category": "fantasy_cinematic",
-  "prompt": "A huge stone golem walking through a ruined temple, moss-covered rocks, vines falling, dust and debris, cinematic documentary camera style, 8K detail",
-  "resolution": "810x1440"
-  }
-]
 ```
 ## How to Use (Hugging Face Example)
 ```python
